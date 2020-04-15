@@ -109,5 +109,21 @@
 }
 
 /* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: eleven-spin 2s ease-out;
+}
+
+@keyframes eleven-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 /* Esercizio 12 */
 /* Esercizio 13 */
