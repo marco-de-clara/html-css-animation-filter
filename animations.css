@@ -67,6 +67,7 @@
     transition: 2s;
     filter: grayscale(85%) invert(100%);
 }
+
 /* Esercizio 8 */
 .ex-8-img {
     transition: 2s;
@@ -77,7 +78,18 @@
     filter: hue-rotate(47deg) grayscale(50%);
     border-radius: 20px;
 }
+
 /* Esercizio 9 */
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    transition: transform 2s, filter 4s, border-radius 1s;
+    transform: scale(1.2);
+    filter: sepia(40%) hue-rotate(290deg);
+    border-radius: 20px;
+}
 /* Esercizio 10 */
 /* Esercizio 11 */
 /* Esercizio 12 */
