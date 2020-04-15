@@ -90,7 +90,24 @@
     filter: sepia(40%) hue-rotate(290deg);
     border-radius: 20px;
 }
+
 /* Esercizio 10 */
+.ex-10-icon {
+    animation: ten-spin .6s linear infinite;
+}
+
+@keyframes ten-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
 /* Esercizio 11 */
 /* Esercizio 12 */
 /* Esercizio 13 */
