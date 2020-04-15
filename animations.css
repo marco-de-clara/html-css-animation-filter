@@ -22,7 +22,6 @@
 /* Esercizio 3 */
 .ex-3-square {
     transition: ease-out 1s;
-    border-radius: 0;
 }
 
 .ex-3-square:hover {
@@ -69,6 +68,15 @@
     filter: grayscale(85%) invert(100%);
 }
 /* Esercizio 8 */
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    transition: 2s;
+    filter: hue-rotate(47deg) grayscale(50%);
+    border-radius: 20px;
+}
 /* Esercizio 9 */
 /* Esercizio 10 */
 /* Esercizio 11 */
