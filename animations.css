@@ -21,6 +21,15 @@
 }
 
 /* Esercizio 3 */
+.ex-3-square {
+    transition: ease-out 1s;
+    border-radius: 0;
+}
+
+.ex-3-square:hover {
+    transition: ease-in 1s;
+    border-radius: 50%;
+}
 /* Esercizio 4 */
 /* Esercizio 5 */
 /* Esercizio 6 */
