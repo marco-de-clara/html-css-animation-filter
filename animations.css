@@ -30,7 +30,18 @@
     transition: ease-in 1s;
     border-radius: 50%;
 }
+
 /* Esercizio 4 */
+.ex-4-square {
+    transition: 2s;
+    background-color: #f00;;
+}
+
+.ex-4-square:hover {
+    transition: 2s;
+    background-color: transparent;
+}
+
 /* Esercizio 5 */
 /* Esercizio 6 */
 /* Esercizio 7 */
