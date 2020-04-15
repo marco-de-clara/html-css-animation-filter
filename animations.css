@@ -11,8 +11,7 @@
 
 /* Esercizio 2 */
 .ex-2-square {
-    transition: ease-out 2.5s;
-    width: 100px;
+    transition: ease-out width 2.5s;
 }
 
 .ex-2-square:active {
@@ -43,7 +42,20 @@
 }
 
 /* Esercizio 5 */
+.ex-5-square {
+    transition: transform 2s, transform 2s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
 /* Esercizio 6 */
+
 /* Esercizio 7 */
 /* Esercizio 8 */
 /* Esercizio 9 */
